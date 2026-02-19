@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="makeChangebg()">ckick</button>
+    <button id="btn-blue">bg blue </button>
+    <button id="btn-green">bg green </button>
+    <br>
+    <p id="text-inp"> No user </p><br>
+    <button id="login-btn">login</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p id="name">No name</p>
+    <input type="text" name="" id="nameInput"><br>
+    <button id="btn">Submit</button>
+
+
+
+    
+    <script>
+        function makeChangebg() {
+            document.body.style.backgroundColor = 'yellow'
+        }
+
+        const btnMakeBlue = document.getElementById('btn-blue')
+        btnMakeBlue.onclick = function () {
+            document.body.style.backgroundColor = 'blue'
+
+
+        }
+
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
